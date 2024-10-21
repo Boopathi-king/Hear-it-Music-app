@@ -22,25 +22,30 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
+import HeyMinnaleCover from './Hey minnale cover.webp'
+import ManasilayoCover from './Manasilayo cover.jpg'
+import BadassCover from './Badasscover.jpg'
+import MattaCover from './Matta Cover.jpg'
+import WhistlePoduCover from './Whistlepodu cover.jpg'
 import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
 import img12 from './img12.jpg'
-import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import HunterCover from './Hunter-Vantaar-From-Vettaiyan-.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import HunterVantaar from './Hunter Vantaar.mp3'
+import HeyMinnale from './Hey Minnale.mp3'
+import Manasalayo from './Manasilaayo.mp3'
+import Badass from './Badass.mp3'
+import Matta from './Matta.mp3'
+import WhistlePodu from './Whistle Podu.mp3'
 
 export const assets = {
     bell_icon,
@@ -117,51 +122,51 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Hunter Vantaar",
+        image: HunterCover , 
+        file: HunterVantaar, 
+        desc:"Hunter Vantaar Song From Vettaiyan",
+        duration:"3;12"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        name: "Hey Minnale",
+        image: HeyMinnaleCover,
+        file: HeyMinnale,
+        desc:"Hey Minnale From Amaran Tamil",
+        duration:"3:49"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        name: "Manasilayo",
+        image: ManasilayoCover,
+        file: Manasalayo,
+        desc:"Manasilayo Song From Vettaiyan",
+        duration:"3:55"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        name: "BadAss",
+        image: BadassCover,
+        file: Badass,
+        desc:"Badass Song from LEO",
+        duration:"3:49"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        name: "Matta",
+        image: MattaCover,
+        file: Matta,
+        desc:"Matta Song from GOAT",
+        duration:"3:32"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        name: "Whistle podu",
+        image: WhistlePoduCover,
+        file:WhistlePodu,
+        desc:"Whistle podu song from GOAT",
+        duration:"4:41"
     },
     {
         id:6,
