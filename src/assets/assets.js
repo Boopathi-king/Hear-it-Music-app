@@ -22,30 +22,13 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import HeyMinnaleCover from './Hey minnale cover.webp'
-import ManasilayoCover from './Manasilayo cover.jpg'
-import BadassCover from './Badasscover.jpg'
-import MattaCover from './Matta Cover.jpg'
-import WhistlePoduCover from './Whistlepodu cover.jpg'
-import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import HunterCover from './Hunter-Vantaar-From-Vettaiyan-.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
-import HunterVantaar from './Hunter Vantaar.mp3'
-import HeyMinnale from './Hey Minnale.mp3'
-import Manasalayo from './Manasilaayo.mp3'
-import Badass from './Badass.mp3'
-import Matta from './Matta.mp3'
-import WhistlePodu from './Whistle Podu.mp3'
+
 
 export const assets = {
     bell_icon,
@@ -123,65 +106,81 @@ export const songsData = [
     {
         id:0,
         name: "Hunter Vantaar",
-        image: HunterCover , 
-        file: HunterVantaar, 
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589378/Hunter-Vantaar-From-Vettaiyan-_butums.jpg' , 
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589161/Hunter_Vantaar_uqsocg.mp3', 
         desc:"Hunter Vantaar Song From Vettaiyan",
         duration:"3;12"
     },
     {
         id:1,
         name: "Hey Minnale",
-        image: HeyMinnaleCover,
-        file: HeyMinnale,
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589377/Hey_minnale_cover_s7jq7k.webp',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589033/Hey_Minnale_qkosqn.mp3',
         desc:"Hey Minnale From Amaran Tamil",
         duration:"3:49"
     },
     {
         id:2,
         name: "Manasilayo",
-        image: ManasilayoCover,
-        file: Manasalayo,
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589380/Manasilayo_cover_gme8pg.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589052/Manasilaayo_kudh9f.mp3',
         desc:"Manasilayo Song From Vettaiyan",
         duration:"3:55"
     },
     {
         id:3,
         name: "BadAss",
-        image: BadassCover,
-        file: Badass,
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589375/Badasscover_dhpbim.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589161/Badass_gmcd4w.mp3',
         desc:"Badass Song from LEO",
         duration:"3:49"
     },
     {
         id:4,
         name: "Matta",
-        image: MattaCover,
-        file: Matta,
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589381/Matta_Cover_n0yojc.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589031/Matta_tq3po5.mp3',
         desc:"Matta Song from GOAT",
         duration:"3:32"
     },
     {
         id:5,
         name: "Whistle podu",
-        image: WhistlePoduCover,
-        file:WhistlePodu,
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589383/Whistlepodu_cover_pjdib9.jpg',
+        file:'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589035/Whistle_Podu_tjsuem.mp3',
         desc:"Whistle podu song from GOAT",
         duration:"4:41"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        name: "Naa Ready",
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589382/Naa_ready_Cover_hmckry.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729589031/Naa_Ready_bzootx.mp3',
+        desc:"Naa Ready song from LEO",
+        duration:"4:80"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        name: "Fear",
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589376/Fear_cover_cb9dx5.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729588858/Fear_Song_zqb39f.mp3',
+        desc:"Fear song from Devara Part I",
+        duration:"3:15"
+    },
+    {
+        id:8,
+        name: "Hukum",
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589384/Hukum_cover_yt6f9m.jpg',
+        file:'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729588855/Hukum_song_trqaxw.mp3',
+        desc:"Hukum song from Jailer",
+        duration:"3:27"
+    },
+    {
+        id:9,
+        name: "Illuminati",
+        image: 'https://res.cloudinary.com/dfkx8ger1/image/upload/v1729589374/Illuminati_cover_hwskan.jpg',
+        file: 'https://res.cloudinary.com/dfkx8ger1/video/upload/v1729588624/Illuminati_wnjr7l.mp3',
+        desc:"Illuminati song from Aavesham",
+        duration:"3:32"
     }
 ]
